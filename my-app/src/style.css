@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+} 
+.con{
+    font-size: 3.5rem;
+    color: rgb(201, 57, 214);
+}
+.crd{
+    width: 40%;
+    margin: 2rem auto;
+    padding: .75rem;
+    background: rgb(137, 220, 226);
+    border-radius: 25px;
+    box-shadow: 3px 12px 30px #EC7063;
+    cursor: pointer;
+}
+.crd:hover{
+    transform: scale(1.1);
+}
+.crd img{
+    margin-top: 20px;
+     height:250px;
+     width: 250px;
+}
+.crd .name{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.txt{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.txt p{
+    margin-top: 10px;
+}
